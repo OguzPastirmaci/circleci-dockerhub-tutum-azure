@@ -2,7 +2,7 @@ deployment:
   dockerhub:
     branch: master
     commands:
-      - $docker-hub-trigger
+      - $docker_hub_trigger
 
 test:
   override:    
